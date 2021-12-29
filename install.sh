@@ -13,6 +13,8 @@ nix-env -iA \
 	nixpkgs.stow \
 	nixpkgs.bat
 
+( cd .. ; rm .bashrc )
+
 stow nvim
 stow bash
 stow tmux

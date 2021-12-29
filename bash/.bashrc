@@ -105,8 +105,10 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
-alias ls='ls -al'
 alias vim='nvim'
+alias k='kubect'
+
+alias home='cd ~'
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
@@ -119,5 +121,3 @@ if ! shopt -oq posix; then
   fi
 fi
 
-#source nix always
-. ~/.nix-profile/etc/profile.d/nix.sh
