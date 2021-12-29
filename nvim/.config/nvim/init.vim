@@ -43,5 +43,5 @@ colorscheme gruvbox-material
 
 " --- Keymaps
 imap jj <Esc>
-nmap <S-h> <S-^>
-nmap <S-l> <S-$>
+nmap H ^
+nmap L $
