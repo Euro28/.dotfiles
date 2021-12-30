@@ -106,7 +106,7 @@ if [ -f ~/.bash_aliases ]; then
 fi
 
 alias vim='nvim'
-alias k='kubect'
+alias k='minikube kubectl --'
 
 alias home='cd ~'
 
@@ -127,4 +127,8 @@ if [ ! -a ~/.inputrc ]; then echo '$include /etc/inputrc' > ~/.inputrc; fi
 
 # Add shell-option to ~/.inputrc to enable case-insensitive tab completion
 echo 'set completion-ignore-case On' >> ~/.inputrc
+
+
+# Generated for envman. Do not edit.
+[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
 
