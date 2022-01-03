@@ -132,3 +132,4 @@ echo 'set completion-ignore-case On' >> ~/.inputrc
 # Generated for envman. Do not edit.
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
 
+. /home/eurolew/.nix-profile/etc/profile.d/nix.sh

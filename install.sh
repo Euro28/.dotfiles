@@ -7,12 +7,11 @@ curl -L https://nixos.org/nix/install | sh
 
 #install packages
 nix-env -iA \
-	nixpkgs.git \
 	nixpkgs.neovim \
 	nixpkgs.tmux \
 	nixpkgs.stow \
 	nixpkgs.bat \
-    nixpkgs.bash-completion
+    	nixpkgs.bash-completion
 
 ( cd .. ; rm .bashrc )
 
